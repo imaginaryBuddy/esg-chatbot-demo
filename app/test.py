@@ -31,7 +31,7 @@ from azure.search.documents.indexes.models import (
 )
 
 
-doc_path="short-ghg-calc.pdf"
+doc_path="Document ESG Details.pdf"
 doc_info = PyPDFLoader(doc_path)
 doc_info_load = doc_info.load()
 

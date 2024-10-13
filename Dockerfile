@@ -6,7 +6,7 @@ WORKDIR /app
 # Copy the current directory contents into the container at /app
 COPY . /app
 
-# Install any needed packages specified in requirements.txt and streamlit in one layer
+# Install packages
 RUN pip install --upgrade pip \
     && pip install --no-cache-dir -r requirements.txt \
     && pip install streamlit==1.31.0
